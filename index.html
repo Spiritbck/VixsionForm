@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Vixsion Form</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      
+        <form class="form-style" action="https://formsubmit.co/spiritbck@mail.com" method="post">
+            <h1>Join Vixsion &ndash; Recruitment Form</h1>
+            <div>
+                <div class="id">
+                    <label class="form-texts"> Vixsion ID 
+                        <span class="required-sign">&#42;</span>
+                    </label>
+                    <input class="id-bar" name="vixsion_id" type="text" placeholder="Enter ID" maxlength="10" minlength="10" required>
+                </div>
+                <div>
+                    <label> Date of Birth 
+                        <span class="required-sign">&#42;</span>
+                    </label>
+                    <input class="date-bar" type="date" name="dob" placeholder="dd/mm/yyyy" required>
+                </div>
+                <div>
+                    <label> Email <span class="required-sign">&#42;</span></label>
+                    <input class="email-bar" type="email" name="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label> Phone Number <span class="required-sign">&#42;</span></label>
+                    <input type="tel" name="phone" required>
+                </div>
+                <div>
+                    <label> Location <span class="required-sign">&#42;</span></label>
+                    <input type="text" name="location" required>
+                </div>
+                <div>
+                    <label style="display: block;"> Field&#92;Talent <span class="required-sign">&#42;</span></label>
+                    <select class="select-bar" name="talent" required> 
+                        <option></option>
+                        <option>Graphic Design</option>
+                        <option>Filmmaker</option>
+                        <option>Music Production</option>
+                        <option>Fashion</option>
+                        <option>Tech Developer</option>
+                        <option>Product Design</option>
+                        <option>Writer</option>
+                        <option>Project Manager</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label style="display: block;"> Personal Statement <span class="required-sign">&#42;</span></label>
+                    <textarea class="personal-statement" name="bio"  required></textarea>
+                </div>
+                <div>
+                    <label> Portfolio Link </label>
+                    <input type="url" name="portfolio" >
+                </div>
+                <div>
+                    <label> Notable Project&#40;s&#41; </label>
+                    <textarea class="personal-statement" name="projects"  ></textarea>
+                </div>
+                <div>
+                    <label style="display: block;"> Career Goals <span class="required-sign">&#42;</span></label>
+                    <textarea class="personal-statement" name="goals"  required></textarea>
+                </div>
+                <div>
+                    <label style="display: block;"> Why Join Vixsion&#63; <span class="required-sign">&#42;</span></label>
+                    <textarea class="personal-statement" name="join_vixsion"  required></textarea>
+                </div>
+                <div class="checkbox-style" > 
+                    <input style="display: inline; width: 30px;" type="checkbox" id="yes" name="yes_to_contract" 
+                    value="Yes" required> 
+                    <label style="display: inline-block;" > Agree to Engagement Contract&#63; </label>
+                </div>
+                
+                       
+                <input type="submit" class="submit-button">
+                <input type="hidden" name="_subject" value="New Vixsion Application!">
+
+            </div>
+        </form>
+        
+    </body>
+</html>
