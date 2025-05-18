@@ -25,12 +25,18 @@ body{
 
 h1 {
     color: rgb(31, 47, 152);
-    font-family: 'Segoe UI';
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
 }
 
 label {
     color: rgb(45, 45, 45);
-    font-family: sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 input{
